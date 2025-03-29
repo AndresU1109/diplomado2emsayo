@@ -29,8 +29,16 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+
+        #corre linea de script
+      - name: corre script
+        run: echo Hello, world!
+
+      - name: corre script
+        run: echo hola, otro scrit!
+
+      - name : Install Typescript
+        run: npm install -g typescript
+
+      - name: check typescript version
+        run: npx tsc --noEmit
