@@ -1,1 +1,1 @@
-const numero= number => "hols;"
+const numero= number => 50
